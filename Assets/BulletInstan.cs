@@ -6,7 +6,7 @@ using System;
 public class BulletInstan : MonoBehaviour
 {
     [SerializeField]
-    private GameObject bulletprefab;
+    private GameObject bulltprefab;
     [SerializeField]
     private GameObject Enemyprefab;
     //public GameObject Player;
@@ -51,7 +51,7 @@ public class BulletInstan : MonoBehaviour
     void StartBullet()
     {
 
-        GameObject bullet = Instantiate(bulletprefab, this.transform.position, Quaternion.identity, Background.transform);
+        GameObject bullet = Instantiate(bulltprefab, this.transform.position, Quaternion.identity, Background.transform);
         StartCoroutine(MoveObject(bullet,new Vector3(bullet.transform.position.x,900, bullet.transform.position.z)));
 
     }
