@@ -6,7 +6,7 @@ using System;
 public class BulletInstan : MonoBehaviour
 {
     [SerializeField]
-    private GameObject bulletprefabs;
+    private GameObject bulletsprefabs;
     [SerializeField]
     private GameObject Enemyprefab;
     //public GameObject Player;
