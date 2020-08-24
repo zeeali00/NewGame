@@ -5,11 +5,7 @@ using System;
 
 public class BulletInstan : MonoBehaviour
 {
-    private void Update()
-    {
-        Debug.Log("This is changed by zeeshan");
-    }
-
+ 
 }
 
    
